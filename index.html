@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/db5fbb90a7.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./styles/app.css">
+</head>
+<body>
+<div class="page">
+
+
+  <header id="header">
+    <div class="logo">
+      <img 
+      src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Best_tennis_racket_reviews_and_advice_available%21.png"
+      alt="tennisracketpro.com / CC BY-SA (https://creativecommons.org/licenses/by-sa/4.0)" 
+      id="header-img">
+    </div>
+    
+    <nav id="nav-bar">
+      <ul class="appbar">
+        <li class="appbar__item"><a href="#features" class="nav-link">Features</a></li>
+        <li class="appbar__item"><a href="#how-it-works" class="nav-link">How it Works</a></li>
+        <li class="appbar__item"><a href="#pricing" class="nav-link">Pricing</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main class="main">
+    <section class="section" id="features">
+      <h1 class="title">World Professioanl Tennis Rackets</h1>
+      <div class="feature-container">
+        <div class="feature">
+          <div class="feature__icon">
+            <i class="fas fa-fire"></i>
+          </div>
+          <div class="feature__texts">
+            <h3 class="feature__texts__title">Premium Materials</h3>
+            <p class="feature__texts__description">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature__icon">
+            <i class="fas fa-truck"></i>
+          </div>
+          <div class="feature__texts">
+            <h3 class="feature__texts__title">Fast Shipping</h3>
+            <p class="feature__texts__description">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <div class="feature__icon">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <div class="feature__texts">
+            <h3 class="feature__texts__title">Quality Assurance</h3>
+            <p class="feature__texts__description">Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section" id="how-it-works">
+      <div class="video-container">
+        <iframe 
+          id="video"
+          height="315"
+          src="https://www.youtube.com/embed/9TBTPf_TiPk"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+            </iframe>
+      </div>
+    </section>
+    <section class="section" id="pricing">
+      <ul class="plans">
+        <li class="plans__item">
+          <div class="plan">
+            <h4 class="plan__title">Beginner's Tennis Rackets</h4>
+            <h5 class="plan__text">Lorem ipsum</h5>
+            <h5 class="plan__text">Lorem ipsum</h5>
+            <h5 class="plan__text">Lorem ipsum</h5>
+            <h5 class="plan__text">Lorem ipsum</h5>
+            <h5 class="plan__text">Lorem ipsum</h5>
+            <h3 class="plan__price">$240</h3>
+            <button class="plan__buy-btn">Buy</button>
+          </div>
+        </li>
+        <li class="plans__item">
+          <div class="plan">
+            <h4 class="plan__title">Club Player's Tennis Rackets</h4>
+            <h5 class="plan__text">Lorem ipsum</h5>
+            <h5 class="plan__text">Lorem ipsum</h5>
+            <h5 class="plan__text">Lorem ipsum</h5>
+            <h5 class="plan__text">Lorem ipsum</h5>
+            <h5 class="plan__text">Lorem ipsum</h5>
+            <h3 class="plan__price">$300</h3>
+            <button class="plan__buy-btn">Buy</button>
+          </div>
+        </li>
+        <li class="plans__item">
+          <div class="plan">
+            <h4 class="plan__title">Professional's Tennis Rackets</h4>
+            <h5 class="plan__text">Lorem ipsum</h5>
+            <h5 class="plan__text">Lorem ipsum</h5>
+            <h5 class="plan__text">Lorem ipsum</h5>
+            <h5 class="plan__text">Lorem ipsum</h5>
+            <h5 class="plan__text">Lorem ipsum</h5>
+            <h3 class="plan__price">$340</h3>
+            <button class="plan__buy-btn">Buy</button>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <form action="https://www.freecodecamp.com/email-submit" method="POST" id="form">
+      <input 
+        type="email"
+        name="email"
+        id="email" 
+        class="form-control" 
+        required
+        placeholder="Subscribe to our newsletter"
+        >
+      <input type="submit" value="Subscribe" id="submit">
+    </form>
+    <nav class="footer-nav">
+      <ul class="bottombar">
+        <li class="bottombar__item"><a href="#" class="bottombar__link">Privacy Policy</a></li>
+        <li class="bottombar__item"><a href="#" class="bottombar__link">Terms of Service</a></li>
+        <li class="bottombar__item"><a href="#" class="bottombar__link">Sitemap</a></li>
+      </ul>
+    </nav>
+  </footer>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</div>
+</body>
+</html>
